@@ -1,0 +1,318 @@
+Microsoft Windows [Version 6.2.9200]
+(c) 2012 Microsoft Corporation. All rights reserved.
+
+C:\Users\PIUS PC\Desktop\lekki>touch le.html
+'touch' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\PIUS PC\Desktop\lekki>git init
+Initialized empty Git repository in C:/Users/PIUS PC/Desktop/lekki/.git/
+
+C:\Users\PIUS PC\Desktop\lekki>git branch
+
+C:\Users\PIUS PC\Desktop\lekki>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        kk.html
+        le.html
+        li.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PIUS PC\Desktop\lekki>git checkout -b fowl
+Switched to a new branch 'fowl'
+
+C:\Users\PIUS PC\Desktop\lekki>git branch --help
+
+C:\Users\PIUS PC\Desktop\lekki>git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone             Clone a repository into a new directory
+   init              Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add               Add file contents to the index
+   mv                Move or rename a file, a directory, or a symlink
+   restore           Restore working tree files
+   rm                Remove files from the working tree and from the index
+   sparse-checkout   Initialize and modify the sparse-checkout
+
+examine the history and state (see also: git help revisions)
+   bisect            Use binary search to find the commit that introduced a bug
+   diff              Show changes between commits, commit and working tree, etc
+   grep              Print lines matching a pattern
+   log               Show commit logs
+   show              Show various types of objects
+   status            Show the working tree status
+
+grow, mark and tweak your common history
+   branch            List, create, or delete branches
+   commit            Record changes to the repository
+   merge             Join two or more development histories together
+   rebase            Reapply commits on top of another base tip
+   reset             Reset current HEAD to the specified state
+   switch            Switch branches
+   tag               Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch             Download objects and refs from another repository
+   pull              Fetch from and integrate with another repository or a local branch
+   push              Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+C:\Users\PIUS PC\Desktop\lekki>git add li.html
+
+C:\Users\PIUS PC\Desktop\lekki>git status
+On branch fowl
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   li.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        kk.html
+        le.html
+
+
+C:\Users\PIUS PC\Desktop\lekki>git commit -m "added li.html to git branch"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PIUS PC@PIUS.(none)')
+
+C:\Users\PIUS PC\Desktop\lekki>git commit -m "added li.html to the repository"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PIUS PC@PIUS.(none)')
+
+C:\Users\PIUS PC\Desktop\lekki>git git config --glodal user.name "lucia3191"
+git: 'git' is not a git command. See 'git --help'.
+
+The most similar command is
+        init
+
+C:\Users\PIUS PC\Desktop\lekki>git config --global user.name "lucia3191"
+
+C:\Users\PIUS PC\Desktop\lekki>git status
+On branch fowl
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   li.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        debug.log
+        kk.html
+        le.html
+
+
+C:\Users\PIUS PC\Desktop\lekki>git commit -m "added li.html to repository"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PIUS PC@PIUS.(none)')
+
+C:\Users\PIUS PC\Desktop\lekki>git status
+On branch fowl
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   li.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        debug.log
+        kk.html
+        le.html
+
+
+C:\Users\PIUS PC\Desktop\lekki>git commit -m "added li.html to repository"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PIUS PC@PIUS.(none)')
+
+C:\Users\PIUS PC\Desktop\lekki>git config --global user.email "lucybabe3191@gmail.com
+
+C:\Users\PIUS PC\Desktop\lekki>git commit -m "added li.html to repository"
+[fowl (root-commit) bbbdcb5] added li.html to repository
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 li.html
+
+C:\Users\PIUS PC\Desktop\lekki>git checkout -b duck
+Switched to a new branch 'duck'
+
+C:\Users\PIUS PC\Desktop\lekki>git status
+On branch duck
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        debug.log
+        kk.html
+        le.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PIUS PC\Desktop\lekki>del debug.log
+C:\Users\PIUS PC\Desktop\lekki\debug.log
+The process cannot access the file because it is being used by another process.
+
+C:\Users\PIUS PC\Desktop\lekki>git branch
+* duck
+  fowl
+
+C:\Users\PIUS PC\Desktop\lekki>git add kk.html le.html
+
+C:\Users\PIUS PC\Desktop\lekki>git commit -m "added 2 files to repository"
+[duck 7d7460d] added 2 files to repository
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 kk.html
+ create mode 100644 le.html
+
+C:\Users\PIUS PC\Desktop\lekki>git status
+On branch duck
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        debug.log
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\PIUS PC\Desktop\lekki>https://github.com/Lucia3191/meAndPython.git
+'https:' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\PIUS PC\Desktop\lekki>git remote add origin https://github.com/Lucia3191/meAndPython.git
+
+C:\Users\PIUS PC\Desktop\lekki>git push
+fatal: The current branch duck has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin duck
+
+
+C:\Users\PIUS PC\Desktop\lekki>git push --set-upstream origin duck
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 440 bytes | 146.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: error: GH007: Your push would publish a private email address.
+remote: You can make your email public or disable this protection by visiting:
+remote: http://github.com/settings/emails
+To https://github.com/Lucia3191/meAndPython.git
+ ! [remote rejected] duck -> duck (push declined due to email privacy restrictions)
+error: failed to push some refs to 'https://github.com/Lucia3191/meAndPython.git'
+
+C:\Users\PIUS PC\Desktop\lekki>git push --set-upstream origin duck
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 440 bytes | 146.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: error: GH007: Your push would publish a private email address.
+remote: You can make your email public or disable this protection by visiting:
+remote: http://github.com/settings/emails
+To https://github.com/Lucia3191/meAndPython.git
+ ! [remote rejected] duck -> duck (push declined due to email privacy restrictions)
+error: failed to push some refs to 'https://github.com/Lucia3191/meAndPython.git'
+
+C:\Users\PIUS PC\Desktop\lekki>git push
+fatal: The current branch duck has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin duck
+
+
+C:\Users\PIUS PC\Desktop\lekki>git push --set-upstream origin duck
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (5/5), 440 bytes | 220.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Lucia3191/meAndPython.git
+ * [new branch]      duck -> duck
+Branch 'duck' set up to track remote branch 'duck' from 'origin'.
+
+C:\Users\PIUS PC\Desktop\lekki>git checkout -
+Switched to branch 'fowl'
+
+C:\Users\PIUS PC\Desktop\lekki>git push
+fatal: The current branch fowl has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin fowl
+
+
+C:\Users\PIUS PC\Desktop\lekki>git push --set-upstream origin fowl
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'fowl' on GitHub by visiting:
+remote:      https://github.com/Lucia3191/meAndPython/pull/new/fowl
+remote:
+To https://github.com/Lucia3191/meAndPython.git
+ * [new branch]      fowl -> fowl
+Branch 'fowl' set up to track remote branch 'fowl' from 'origin'.
+
+C:\Users\PIUS PC\Desktop\lekki>
